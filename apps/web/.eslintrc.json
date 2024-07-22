@@ -1,6 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
+  // TODO: tailwind兼容性问题暂时禁用了prettier规则，后续修复后启用
   "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended", "plugin:storybook/recommended"],
   "rules": {
     "@typescript-eslint/no-explicit-any": "error", // 禁止使用 'any' 类型
